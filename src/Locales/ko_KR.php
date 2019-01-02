@@ -4,9 +4,9 @@
 return array(
     "months"        => explode('_', '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'),
     "monthsShort"   => explode('_', '1월_2월_3월_4월_5월_6월_7월_8월_9월_10월_11월_12월'),
-    "weekdays"      => explode('_', '일요일_월요일_화요일_수요일_목요일_금요일_토요일'),
-    "weekdaysShort" => explode('_', '일_월_화_수_목_금_토'),
-    "weekdaysMin"   => explode('_', '일_월_화_수_목_금_토'),
+    "weekdays"      => explode('_', '월요일_화요일_수요일_목요일_금요일_토요일_일요일'),
+    "weekdaysShort" => explode('_', '월_화_수_목_금_토_일'),
+    "weekdaysMin"   => explode('_', '월_화_수_목_금_토_일'),
     "calendar"      => array(
         "sameDay"   => '[오늘] LT',
         "nextDay"   => '[내일] LT',
